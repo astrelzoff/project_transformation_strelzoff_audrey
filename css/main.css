@@ -47,12 +47,14 @@ a {
 }
 
 .container {
-    width: 1000px;
     margin: 0 auto;
 }
 
 /* Header */
 #header-wrapper {
+    width: 100%;
+    max-width: 1200px;
+    margin: auto;
     overflow: hidden;
 }
 
@@ -319,7 +321,9 @@ a {
 
 #banner {
     margin: 0 auto;
-    width: 1000px;
-    height: 340px;
     background: url(../img/img03.png) no-repeat left bottom;
+}
+
+#banner img {
+    width: 100%;
 }
