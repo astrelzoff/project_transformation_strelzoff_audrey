@@ -60,7 +60,7 @@ a {
 
 #header {
     margin: 0 auto;
-    padding: 0 0;
+    padding: 1rem 0 0 0;
 }
 
 /* Logo */
@@ -72,9 +72,8 @@ a {
 }
 
 #logo h1 {
-    line-height: 120px;
     letter-spacing: -2px;
-    font-size: 3.8em;
+    font-size: 3.2rem;
 }
 
 #logo h1 a {
