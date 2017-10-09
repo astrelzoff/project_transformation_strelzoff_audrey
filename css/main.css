@@ -155,8 +155,8 @@ a {
 }
 
 .post .meta {
-    margin-bottom: 30px;
-    padding: 10px 0 0 0;
+    margin-bottom: 2rem;
+    padding: 0.5rem 0 0 0;
     text-align: left;
     font-family: 'Abel', sans-serif;
     font-size: 1rem;
