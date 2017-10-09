@@ -48,6 +48,7 @@ a {
     color: #5e5e5e;
 }
 
+/* Pseudo-class to clear elements after floats */
 .group_clear::after {
     content: '';
     clear: both;
@@ -131,6 +132,7 @@ a {
     border-top: 1px solid #ffffff;
 }
 
+/* **************MEDIA QUERY FOR BROWSERS LARGER THAN 500PX*************** */
 @media all and (min-width: 500px) {
 
     #menu ul li + li {
@@ -138,6 +140,9 @@ a {
     }
 }
 
+/* **************END QUERY*************** */
+
+/* **************MEDIA QUERY FOR BROWSERS LARGER THAN 600PX*************** */
 @media all and (min-width: 600px) {
 
     #menu ul li,
@@ -148,6 +153,9 @@ a {
     }
 }
 
+/* **************END QUERY*************** */
+
+/* **************MEDIA QUERY FOR BROWSERS LARGER THAN 840PX*************** */
 @media all and (min-width: 840px) {
 
     #menu {
@@ -167,7 +175,7 @@ a {
     }
 }
 
-
+/* **************END QUERY*************** */
 #menu a {
     display: block;
     line-height: 3rem;
@@ -190,6 +198,16 @@ a {
     color: #ffffff;
 }
 
+#banner {
+    clear: both;
+    margin: 0 auto;
+    background: url(../img/img03.png) no-repeat left bottom;
+}
+
+#banner img {
+    width: 100%;
+}
+
 /* Page */
 #page {
     max-width: 1200px;
@@ -202,6 +220,7 @@ a {
     padding: 0 0.5rem;
 }
 
+/* **************MEDIA QUERY FOR BROWSERS LARGER THAN 700PX*************** */
 @media all and (min-width: 700px) {
 
     #content {
@@ -215,6 +234,7 @@ a {
     }
 }
 
+/* **************END QUERY*************** */
 .post {
     overflow: hidden;
     margin-bottom: 3rem;
@@ -327,14 +347,4 @@ a {
     text-transform: uppercase;
     text-align: center;
     color: #5e5e5e;
-}
-
-#banner {
-    clear: both;
-    margin: 0 auto;
-    background: url(../img/img03.png) no-repeat left bottom;
-}
-
-#banner img {
-    width: 100%;
 }
