@@ -180,7 +180,7 @@ a {
 
 /* Content */
 #content {
-    padding: 0 0 0 0;
+    padding: 0 0.5rem;
 }
 
 .post {
@@ -242,7 +242,7 @@ a {
 /* Sidebar */
 #sidebar {
     margin: 0;
-    padding: 2rem 0 0 0;
+    padding: 2rem 0.5rem 0 0.5rem;
 }
 
 #sidebar ul {
