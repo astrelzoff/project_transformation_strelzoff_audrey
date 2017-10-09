@@ -42,10 +42,6 @@ a {
     background: #ffffff url(../img/img05.jpg) repeat;
 }
 
-.container {
-    margin: 0 auto;
-}
-
 /* Header */
 #header-wrapper {
     width: 100%;
