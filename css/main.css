@@ -151,7 +151,6 @@ a {
 #menu a {
     display: block;
     line-height: 3rem;
-
     padding: 0 1rem 0 1rem;
     text-decoration: none;
     text-align: center;
@@ -181,6 +180,21 @@ a {
 /* Content */
 #content {
     padding: 0 0.5rem;
+}
+
+@media all and (min-width: 700px) {
+
+    #content {
+        padding: 1rem 0.5rem 0 0.5rem;
+        width: 66%;
+        float: right;
+    }
+
+    #sidebar {
+        width: 34%;
+    }
+
+
 }
 
 .post {
