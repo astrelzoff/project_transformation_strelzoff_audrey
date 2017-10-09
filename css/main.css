@@ -268,18 +268,18 @@ a {
     list-style: none;
 }
 
-#sidebar li ul {
+#sidebar section ul {
     margin: 0 0;
     padding-bottom: 2rem;
 }
 
-#sidebar li li {
+#sidebar section li {
     line-height: 2rem;
     border-bottom: 1px solid #e7ebed;
     border-left: none;
 }
 
-#sidebar li li a {
+#sidebar section li a {
     padding: 0 0 0 1.5rem;
     background: url(../img/img04.jpg) no-repeat left 50%;
 }
