@@ -48,6 +48,12 @@ a {
     color: #5e5e5e;
 }
 
+.group_clear::after {
+    content: '';
+    clear: both;
+    display: block;
+}
+
 #wrapper {
     background: #ffffff url(../img/img05.jpg) repeat;
 }
