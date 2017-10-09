@@ -118,6 +118,16 @@ a {
     }
 }
 
+@media all and (min-width: 600px) {
+
+    #menu ul li,
+    #menu ul li + li {
+        display: inline-block;
+        width: calc(97.3% / 5);
+    }
+}
+
+
 #menu a {
     display: block;
     line-height: 3rem;
