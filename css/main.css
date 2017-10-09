@@ -193,8 +193,6 @@ a {
     text-decoration: none;
 }
 
-
-
 /* Sidebar */
 #sidebar {
     margin: 0;
@@ -202,14 +200,8 @@ a {
 }
 
 #sidebar ul {
-    margin: 0;
     padding: 0;
     list-style: none;
-}
-
-#sidebar li {
-    margin: 0;
-    padding: 0;
 }
 
 #sidebar li ul {
@@ -220,7 +212,6 @@ a {
 #sidebar li li {
     line-height: 2rem;
     border-bottom: 1px solid #e7ebed;
-    margin: 0 0;
     border-left: none;
 }
 
@@ -239,6 +230,7 @@ a {
 
 #sidebar a {
     border: none;
+    text-decoration: none;
 }
 
 #sidebar a:hover {
