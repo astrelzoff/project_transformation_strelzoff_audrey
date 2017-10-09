@@ -58,7 +58,7 @@ a {
 /* Boilerplate code from https://github.com/h5bp/html5-boilerplate/blob/master/src/css/main.css#L107-L169 to hide headings that are in place for screen readers */
 .visuallyhidden {
     border: 0;
-    clip: rect(0 0 0 0);
+    clip: rect(0, 0, 0, 0);
     clip-path: inset(50%);
     height: 1px;
     margin: -1px;
