@@ -124,6 +124,26 @@ a {
     #menu ul li + li {
         display: inline-block;
         width: calc(97.3% / 5);
+        border-top: none;
+    }
+}
+
+@media all and (min-width: 840px) {
+
+    #menu {
+        float: right;
+        width: 60%;
+    }
+
+    #logo {
+        float: left;
+        margin: 0 0 2rem 0;
+    }
+
+    #menu ul li,
+    #menu ul li + li {
+        display: inline-block;
+        width: calc(96.84% / 5);
     }
 }
 
@@ -278,7 +298,7 @@ a {
 }
 
 #banner {
-    clear: right;
+    clear: both;
     margin: 0 auto;
     background: url(../img/img03.png) no-repeat left bottom;
 }
