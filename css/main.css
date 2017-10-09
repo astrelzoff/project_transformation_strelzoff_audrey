@@ -111,6 +111,13 @@ a {
     border-top: 1px solid #ffffff;
 }
 
+@media all and (min-width: 500px) {
+
+    #menu ul li + li {
+        width: calc(97.5% / 4);
+    }
+}
+
 #menu a {
     display: block;
     line-height: 3rem;
