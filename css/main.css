@@ -54,6 +54,20 @@ a {
     display: block;
 }
 
+/* Boilerplate code from https://github.com/h5bp/html5-boilerplate/blob/master/src/css/main.css#L107-L169 to hide headings that are in place for screen readers */
+.visuallyhidden {
+    border: 0;
+    clip: rect(0 0 0 0);
+    clip-path: inset(50%);
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    width: 1px;
+    white-space: nowrap; /* 1 */
+}
+
 #wrapper {
     background: #ffffff url(../img/img05.jpg) repeat;
 }
