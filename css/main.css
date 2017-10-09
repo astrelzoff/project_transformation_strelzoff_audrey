@@ -143,7 +143,7 @@ a {
     #menu ul li,
     #menu ul li + li {
         display: inline-block;
-        width: calc(96.84% / 5);
+        width: calc(96.8% / 5);
     }
 }
 
